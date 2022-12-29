@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="login.css" />
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-7 d_none">
+          <div class="left-side">
+            <div class="log-img-out">
+              <img src="./images/log-img.png" alt="" class="log-img" />
+            </div>
+            <div class="welc-box bg">
+              <div class="welc-text-1">
+                WELCOME TO<br />
+                QR SCANNER
+              </div>
+              <div class="welc-text-2">Manage your food easily.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5 position-relative">
+          <div class="right-side">
+            <div class="dp">
+              <img src="./images/dp.png" alt="" />
+            </div>
+            <div class="start-text clr">Let’s Get Started</div>
+
+            <div class="info-box">
+              <div class="inp-1-out">
+                <label for="exampleFormControlInput1" class="form-label lab-inp"
+                  >Phone Number</label
+                >
+                <div class="phone-inp">
+                  <div class="row">
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-2">
+                      <select class="phn-select form-select" name="" id="">
+                        <option value="">+91</option>
+                        <option value="">+358</option>
+                      </select>
+                    </div>
+
+                    <div class="col-8 col-sm-9 col-md-9 col-lg-9 col-xl-10">
+                      <input
+                        type="text"
+                        class="form-control inp-2"
+                        placeholder="123456789"
+                      />
+                    </div>
+                  </div>
+                  <div class="line-bw">|</div>
+                </div>
+              </div>
+
+              <div class="inp-2-out">
+                <label for="exampleFormControlInput1" class="form-label lab-inp"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control inp-1"
+                  id="password"
+                  placeholder="password"
+                />
+                <img src="./images/Show.svg" alt="" onclick="show()" />
+              </div>
+
+              <div class="forg-text">Forgot Password?</div>
+
+              <div class="btn-out">
+                <button class="btn sign-btn btn-grp">Sign In</button>
+              </div>
+            </div>
+
+            <div class="wave-box">
+              <div class="contact">
+                <div class="fb"><img src="./images/fb.svg" alt="" /></div>
+                <div class="insta"><img src="./images/insta.svg" alt="" /></div>
+                <div class="tweet"><img src="./images/tweet.svg" alt="" /></div>
+              </div>
+              <div class="wave">
+                <img src="./images/Bottom.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function show() {
+        let pass = document.getElementById("password");
+
+        if (pass.type === "password") {
+          pass.type = "text";
+        } else {
+          pass.type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>
