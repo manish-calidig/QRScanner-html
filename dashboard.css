@@ -51,6 +51,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1.35rem 1.5rem;
+  flex-wrap: wrap;
 }
 .dashboard .order-stats-head-text {
   font-size: 22px;
@@ -160,9 +161,26 @@
 .dashboard .slider.round:before {
   border-radius: 50%;
 }
-
-/* @media screen and (max-width: 768px) {
-  .dashboard table {
-    width: ;
+@media screen and (min-width: 1600px) {
+  .dashboard .body {
+    height: 100vh;
   }
-} */
+}
+
+@media screen and (max-width: 992px) {
+  .d_none {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .dashboard .feat-h-text {
+    font-size: 1rem;
+  }
+
+  .dashboard .feat-m-text {
+    font-size: 0.75rem;
+  }
+  .box-text {
+    padding-top: 0;
+  }
+}

@@ -283,3 +283,379 @@
   margin-right: calc(var(--bs-gutter-x) * -0.5);
   margin-left: calc(var(--bs-gutter-x) * -0.5);
 }
+
+.forgotPass-pin .log-img {
+  height: 100vh;
+  width: 100%;
+}
+.forgotPass-pin .welc-box {
+  width: 32rem;
+  height: 24.375rem;
+  position: absolute;
+  opacity: 0.88;
+  top: 10.25rem;
+
+  padding: 5.375rem 6% 0 6%;
+}
+
+.forgotPass-pin .welc-text-1 {
+  font-size: 2.5rem;
+  color: white;
+  opacity: 1 !important;
+  font-weight: 600;
+}
+.forgotPass-pin .welc-text-2 {
+  font-size: 1.5rem;
+  color: white;
+  opacity: 1 !important;
+
+  padding-top: 2rem;
+}
+
+.forgotPass-pin .ran-text {
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.forgotPass-pin .right-side {
+  padding: 0 3.4rem;
+}
+.forgotPass-pin .dp {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.forgotPass-pin .dp img {
+  height: 5.6rem;
+  width: 5.6rem;
+}
+
+.forgotPass-pin .start-text {
+  margin-top: 0.8rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.forgotPass-pin .info-box {
+  margin-top: 2.2rem;
+}
+
+.forgotPass-pin .phone-inp {
+  position: relative;
+}
+.forgotPass-pin .form-label {
+  margin-bottom: 0.75rem !important;
+}
+
+.right-side .lab-inp {
+  color: #334257;
+  font-size: 1rem;
+}
+
+.right-side .phn-select {
+  border: 1px solid #d0dbe9 !important;
+  height: 3.1rem;
+  width: 100%;
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-right: none !important;
+  color: #334257;
+  position: relative;
+  box-shadow: none !important;
+  border: 1px solid #d0dbe9 !important;
+  border-right: none !important;
+}
+
+.forgotPass-pin .form-select {
+  padding: 0.375rem 0.25rem 0.375rem 1rem;
+}
+.right-side .inp-1 {
+  height: 3.1rem;
+  border: 1px solid #d0dbe9;
+  border-radius: 8px;
+  box-shadow: none !important;
+  border: 1px solid #d0dbe9 !important;
+}
+
+.right-side .inp-2-out {
+  margin-top: 1.8rem;
+}
+
+.right-side .forg-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 21px;
+  color: rgba(51, 66, 87, 0.7);
+  margin-top: 0.5rem;
+  text-align: right;
+}
+
+.right-side .inp-2-out {
+  position: relative;
+}
+
+.right-side .inp-2 {
+  height: 3.1rem;
+  background: #fff;
+  border: 1px solid #d0dbe9;
+  border-radius: 8px;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+
+  box-shadow: none !important;
+  border: 1px solid #d0dbe9 !important;
+  border-left: none !important;
+}
+
+.right-side .inp-2-out img {
+  position: absolute;
+  top: 57px;
+  right: 28px;
+}
+
+.right-side .line-bw {
+  position: absolute;
+  color: #d0dbe9;
+  top: 15px;
+  left: 16.5%;
+}
+.right-side .btn-out {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.right-side .sign-btn {
+  width: 87%;
+  height: 3.4rem;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.forgotPass-pin .right-side .wave img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0rem;
+}
+
+.forgotPass-pin .contact {
+  display: flex;
+  gap: 1.25rem;
+  position: absolute;
+  left: 58px;
+  bottom: 2.5rem;
+  z-index: 99;
+}
+@media screen and (min-width: 1600px) {
+  .forgotPass-pin .welc-box {
+    width: 36rem;
+    top: 6.25rem;
+    padding-top: 4.375rem;
+    padding-left: 5rem;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .forgotPass-pin .welc-box {
+    width: 50rem;
+    top: 6.25rem;
+    padding-top: 4.375rem;
+    padding-left: 4rem;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .forgotPass-pin .log-img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .forgotPass-pin .start-text {
+    margin-top: 0.8rem;
+  }
+  .forgotPass-pin .info-box {
+    margin-top: 1.2rem;
+  }
+  .right-side .phn-select {
+    font-size: 0.9rem;
+  }
+
+  .forgotPass-pin .form-select {
+    padding: 0.375rem 0.25rem 0.375rem 0.75rem;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .forgotPass-pin .form-select {
+    padding: 0.375rem 0.25rem 0.375rem 0.5rem;
+  }
+
+  .right-side .inp-2-out {
+    margin-top: 0.8rem;
+  }
+
+  .right-side .inp-1 {
+    height: 2.4rem;
+  }
+
+  .right-side .btn-out {
+    margin-top: 1rem;
+  }
+
+  .right-side .sign-btn {
+    height: 2.7rem;
+
+    font-size: 16px;
+  }
+  .right-side .forg-text {
+    font-size: 0.7rem;
+  }
+
+  .right-side .inp-2-out img {
+    top: 50px;
+  }
+  .right-side .inp-2 {
+    height: 2.4rem;
+  }
+
+  .right-side .phn-select {
+    height: 2.4rem;
+  }
+  .right-side .line-bw {
+    top: 8px;
+  }
+  .right-side .inp-2 {
+    font-size: 0.7rem;
+  }
+
+  .right-side .inp-1 {
+    font-size: 0.7rem;
+  }
+  .right-side .phn-select {
+    font-size: 0.7rem;
+  }
+  .forgotPass-pin .dp img {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+  .right-side .lab-inp {
+    font-size: 0.8rem;
+  }
+  .forgotPass-pin .form-label {
+    margin-bottom: 0.3rem !important;
+  }
+  .forgotPass-pin .contact {
+    bottom: 1rem;
+    z-index: 99;
+  }
+  .forgotPass-pin .welc-box {
+    top: 6.25rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .forgotPass-pin .welc-box {
+    width: 27rem;
+    top: 3.25rem;
+    padding-top: 7.375rem;
+    padding-left: 3rem;
+  }
+
+  .forgotPass-pin .ran-text {
+    text-align: center;
+    color: #7a7a7a;
+    font-size: 0.8rem;
+  }
+  .forgotPass-pin .form-select {
+    padding: 0.375rem 0.25rem 0.375rem 1rem !important;
+  }
+  .right-side .line-bw {
+    left: 24.5%;
+  }
+
+  .forgotPass-pin .log-img {
+    width: 100%;
+  }
+  .right-side .inp-2-out img {
+    top: 45px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .d_none {
+    display: none;
+  }
+  .forgotPass-pin .right-side {
+    padding: 0 4.5rem;
+    margin-top: 5rem;
+  }
+
+  .forgotPass-pin .wave-box {
+    margin-top: 17rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .forgotPass-pin .right-side {
+    padding: 0 3.5rem;
+  }
+  .right-side .line-bw {
+    left: 24.5%;
+  }
+
+  .forgotPass-pin .wave-box {
+    margin-top: 17rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .right-side .line-bw {
+    left: 32.5%;
+  }
+  .forgotPass-pin .contact {
+    bottom: 1rem !important;
+  }
+  .forgotPass-pin .right-side {
+    margin-top: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .forgotPass-pin .right-side {
+    padding: 0 1.5rem;
+    margin-top: 4.2rem;
+  }
+  .forgotPass-pin .right-side {
+    margin-top: 10rem;
+  }
+  .forgotPass-pin .form-select {
+    padding: 0.375rem 0.25rem 0.375rem 0.5rem !important;
+  }
+
+  .forgotPass-pin .wave-box {
+    margin-top: 12rem;
+  }
+
+  .forgotPass-pin .contact {
+    bottom: 0.4rem !important;
+  }
+}
+.log .forgotPass-pin .row > * {
+  flex-shrink: 0;
+
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0) !important;
+  padding-left: calc(var(--bs-gutter-x) * 0) !important;
+  margin-top: var(--bs-gutter-y);
+}
+
+.forgotPass-pin .row {
+  --bs-gutter-x: 0rem !important;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
