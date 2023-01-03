@@ -175,7 +175,12 @@
     height: 150vh;
   }
 }
-
+@media screen and (max-width: 1300px) {
+  .forgotPass-pin .inp-pin-out {
+    display: flex;
+    gap: 19px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .forgotPass-pin .dp {
     margin-top: 5rem;
@@ -194,8 +199,11 @@
   }
   .forgotPass-pin .inp-pin-out {
     display: flex;
-    gap: 0px;
+    gap: 5px;
     justify-content: space-around;
+  }
+  .forgotPass-pin .right-side {
+    padding: 0px 2.4rem;
   }
 }
 
