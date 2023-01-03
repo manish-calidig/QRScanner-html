@@ -8,7 +8,7 @@
 
     <!-- css -->
     <link rel="stylesheet" href="common.css" />
-    <link rel="stylesheet" href="addmenu.css" />
+    <link rel="stylesheet" href="menu.css" />
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="sidebar.css" />
 
@@ -36,7 +36,7 @@
     ></script>
   </head>
   <body>
-    <div id="dash" class="add-menu">
+    <div id="dash" class="menu">
       <div class="sidebar ds_none">
         <div class="hamburger-menu">
           <input id="menu__toggle" type="checkbox" />
@@ -245,33 +245,199 @@
           </div>
         </div>
         <div class="body">
-          <div class="path">
-            <span class="clr">Home</span> / Menu / Add Menu
+          <div class="add-menu-btn-outer">
+            <button class="btn add-menu-btn bg">
+              <span style="padding-right: 21px"
+                ><img src="images/addmenu.png" alt=""
+              /></span>
+              Add Menu
+            </button>
           </div>
-          <div class="add-menu-box">
-            <div class="upload-out">
-              <div class="menu-name">
-                <div class="menu-name-text">Menu Name</div>
-
-                <div class="menu-name-inp-out">
-                  <input
-                    class="form-control menu-name-inp"
-                    type="text"
-                    placeholder="Menu name"
-                  />
-                </div>
-              </div>
-              <div class="upload-data">
-                <div class="menu-name-text">Images</div>
-                <div class="upload-box clr">Drag and drop files</div>
+          <div class="menu-box">
+            <div class="menu-box-head">
+              <div class="menu-box-head-text">Menu details</div>
+              <div class="menu-box-head-inp-out">
+                <input type="text" name="" id="" class="menu-box-head-inp" />
+                <img src="images/search.png" alt="" />
               </div>
             </div>
-            <div class="btn-outer">
-              <div>
-                <button class="btn bg Submit-btn">Submit</button>
+            <table>
+              <tbody>
+                <tr class="tr1" style="background: #f8fafd">
+                  <th>Menu Name</th>
+                  <th class="text-center">Image</th>
+                  <th class="text-center">Action</th>
+                </tr>
+                <tr class="tr2">
+                  <td class="td2">Lunch</td>
+                  <td class="td2">
+                    <div class="menu-box-img-out text-center">
+                      <img src="images/food1.png" alt="" class="menu-box-img" />
+                    </div>
+                  </td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">Breakfast</td>
+                  <td class="td2">
+                    <div class="menu-box-img-out text-center">
+                      <img src="images/food2.png" alt="" class="menu-box-img" />
+                    </div>
+                  </td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">Dinner</td>
+                  <td class="td2">
+                    <div class="menu-box-img-out text-center">
+                      <img src="images/food3.png" alt="" class="menu-box-img" />
+                    </div>
+                  </td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">Snacks</td>
+                  <td class="td2">
+                    <div class="menu-box-img-out text-center">
+                      <img src="images/food1.png" alt="" class="menu-box-img" />
+                    </div>
+                  </td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">Drinks</td>
+                  <td class="td2">
+                    <div class="menu-box-img-out text-center">
+                      <img src="images/food4.png" alt="" class="menu-box-img" />
+                    </div>
+                  </td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="tr2">
+                  <td class="td2">Chinese</td>
+                  <td class="td2">
+                    <div class="menu-box-img-out text-center">
+                      <img src="images/food5.png" alt="" class="menu-box-img" />
+                    </div>
+                  </td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="showing-outer">
+            <div class="showing">
+              <div class="showing-text">showing</div>
+              <div class="showing-no bg">10</div>
+              <div><img src="images/drop-vec.png" alt="" /></div>
+            </div>
+            <div class="nav-out">
+              <div class="btn back clr">
+                <div style="padding-right: 6px; font-size: 12px">&lt;</div>
+                <div style="font-size: 10px">Back</div>
               </div>
-              <div>
-                <button class="btn cancel-btn">Cancel</button>
+              <div class="btn no clr active">1</div>
+              <div class="btn no clr">2</div>
+              <div class="btn no clr">3</div>
+              <div class="btn no clr">4</div>
+              <div class="btn no clr">5</div>
+              <div class="btn back clr">
+                <div style="padding-right: 6px; font-size: 10px">Next</div>
+                <div style="font-size: 12px">&gt;</div>
               </div>
             </div>
           </div>

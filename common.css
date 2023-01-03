@@ -3,11 +3,11 @@
 }
 
 .bg {
-  background: #ff8a00;
+  background: #ff8a00 !important;
 }
 
 .clr {
-  color: #ff8a00;
+  color: #ff8a00 !important;
 }
 
 .pl_0 {
@@ -28,4 +28,13 @@
 .btn-grp {
   background: #ff8a00 !important;
   color: white !important;
+}
+
+.active {
+  background: #ff8a00 !important;
+  color: white !important;
+}
+
+.btn:focus {
+  box-shadow: none !important;
 }

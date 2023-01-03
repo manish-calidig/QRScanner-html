@@ -2,3 +2,127 @@
   display: grid;
   grid-template-columns: 17% 83%;
 }
+
+.add-menu .body {
+  background-color: #e5e5e5;
+  padding: 1.5rem 2rem 10rem 2rem;
+  min-height: 100vh;
+}
+
+.add-menu .path {
+  color: #7a7a7a;
+  margin-bottom: 1.5rem;
+}
+
+.add-menu .add-menu-box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.add-menu .upload-out {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.add-menu .menu-name-text {
+  font-size: 1rem;
+  color: #334257;
+  padding-bottom: 0.5rem;
+}
+.add-menu .menu-name-inp {
+  border: #d0dbe9 solid 1px;
+  height: 3.1rem;
+  border-radius: 0.5rem;
+  width: 28.8rem;
+}
+
+.add-menu .menu-name-inp::placeholder {
+  color: #a6a6a6;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.add-menu .upload-box {
+  background: rgba(255, 138, 0, 0.16);
+  border-radius: 10px;
+  width: 28.8rem;
+  height: 8.25rem;
+  text-align: center;
+  padding: 3.5rem;
+}
+
+.add-menu .btn-outer {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+.add-menu .Submit-btn {
+  color: white;
+  width: 14.5rem;
+  height: 3.1rem;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0.5rem;
+}
+.add-menu .cancel-btn {
+  color: rgba(122, 122, 122, 1);
+  border: 1px solid rgba(122, 122, 122, 1);
+  width: 14.5rem;
+  height: 3.1rem;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0.5rem;
+}
+.add-menu .Submit-btn:hover {
+  color: white;
+}
+.add-menu .cancel-btn:hover {
+  color: rgba(122, 122, 122, 1);
+}
+@media screen and (min-width: 1600px) {
+  .add-menu .body {
+    padding: 1.5rem 10% 10rem 10%;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .add-menu .body {
+    padding: 1.5rem 18% 10rem 18%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .add-menu .upload-box,
+  .add-menu .menu-name-inp {
+    width: 24rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .add-menu .upload-box,
+  .add-menu .menu-name-inp {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .d_none {
+    display: none;
+  }
+  .add-menu {
+    display: grid;
+    grid-template-columns: 0 100%;
+  }
+  .add-menu .upload-box,
+  .add-menu .menu-name-inp,
+  .add-menu .menu-name,
+  .add-menu .upload-data {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .add-menu .cancel-btn,
+  .add-menu .Submit-btn {
+    width: 12rem;
+  }
+}

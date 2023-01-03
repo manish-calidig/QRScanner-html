@@ -163,7 +163,7 @@
               <span
                 ><img class="box-img" src="images/dish management.svg" alt=""
               /></span>
-              <span class="box-text">Dishs</span>
+              <span class="box-text">Dishes</span>
             </div>
             <div class="box">
               <span><img class="box-img" src="images/offer.svg" alt="" /></span>
@@ -508,6 +508,8 @@
       function expand() {
         document.getElementById("dash").classList.remove("col-cont");
 
+        document.getElementById("social").classList.remove("col-social");
+
         document.getElementById("side-box").classList.remove("col-side-box");
         document.getElementById("logo-text").classList.remove("db_none");
         document.getElementById("ex-img-1").classList.remove("db_none");
@@ -515,6 +517,10 @@
         let node1 = document.getElementsByClassName("box-text");
         for (let i = 0; i < node1.length; i++) {
           node1[i].classList.remove("db_none");
+        }
+        let node2 = document.getElementsByClassName("box");
+        for (let i = 0; i < node1.length; i++) {
+          node2[i].classList.remove("col-box");
         }
       }
     </script>

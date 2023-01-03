@@ -13,8 +13,8 @@
 
 .dashboard .body {
   background: #e5e5e5;
-  height: 100%;
-  padding: 1.5rem 2rem 0 2rem;
+
+  padding: 1.5rem 2rem 3rem 2rem;
 }
 
 .feature .row {
