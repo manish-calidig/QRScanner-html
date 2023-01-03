@@ -1,3 +1,12 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+.col-cont {
+  display: grid;
+  grid-template-columns: 67px 95.6%;
+}
 .dashboard .row {
   --bs-gutter-x: 0rem !important;
 }
@@ -170,6 +179,10 @@
 @media screen and (max-width: 992px) {
   .d_none {
     display: none;
+  }
+  .dashboard {
+    display: grid;
+    grid-template-columns: 0 100%;
   }
 }
 @media screen and (max-width: 400px) {

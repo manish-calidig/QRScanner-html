@@ -9,6 +9,9 @@
   justify-content: space-between;
 }
 
+.navbar .exp-img-outer {
+  padding-left: 0.7rem;
+}
 .logo-img {
   width: 2.75rem;
   height: 2.75rem;
@@ -35,4 +38,10 @@
 
 .navbar .name-text {
   color: #121212;
+}
+
+@media screen and (max-width: 992px) {
+  .exp-img-start {
+    display: none;
+  }
 }

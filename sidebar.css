@@ -3,18 +3,24 @@
   background-color: white;
   width: 100%;
   box-shadow: 2px 0px 18px rgba(0, 0, 0, 0.05);
+  transition: 0.25ms;
+  position: relative;
 }
-.sidebar .side-box {
-  height: 5.4rem;
-  padding: 1.25rem 0 1.25rem 2.88rem;
+
+.side-box {
+  padding: 1.25rem 0 1.25rem 3.88rem;
+  display: flex;
   border-bottom: 2px solid #efefef;
-  width: 100%;
+}
+.logo-text {
+  padding-top: 7px;
 }
 .sidebar .box {
   height: 2.88rem;
   padding-top: 0.75rem;
   padding-left: 1.5rem;
 }
+
 .sidebar .box-out {
   margin-top: 1.125rem;
 }
@@ -36,6 +42,71 @@
   display: none;
 }
 
+.sidebar .social {
+  display: flex;
+  gap: 1.25rem;
+  position: absolute;
+  bottom: -3rem;
+  left: 1.5rem;
+}
+/* collasp */
+.col-cont {
+  display: grid;
+  grid-template-columns: 67px 95.6% !important;
+}
+.col-sidebar {
+  width: 5.5rem;
+}
+.col-box-text {
+  display: none;
+}
+.col-side-box {
+  padding: 1.25rem 0 1.25rem 0.7rem !important;
+}
+.col-box {
+  padding-left: 1.1rem !important;
+}
+.db_none {
+  display: none;
+}
+.col-social {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+/*  */
+@media screen and (max-width: 1400px) {
+  .side-box {
+    padding: 1.25rem 0 1.25rem 1.88rem !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .col-side-box {
+    padding: 1.25rem 0 1.25rem 0.7rem !important;
+
+    justify-content: left;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .side-box {
+    padding: 1.25rem 0 1.25rem 0.4rem !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .col-side-box {
+    padding: 1.25rem 0 1.25rem 0.7rem !important;
+
+    justify-content: left;
+  }
+}
 @media screen and (max-width: 992px) {
   .sidebar .logo-text {
     display: none;
@@ -50,6 +121,8 @@
     padding-left: 1rem;
   }
 }
+
+/* hamberger */
 
 #menu__toggle {
   opacity: 0;
@@ -75,7 +148,7 @@
 } */
 .menu__btn {
   position: absolute;
-  top: 57px;
+  top: 43px;
   left: 20px;
   width: 26px;
   height: 26px;

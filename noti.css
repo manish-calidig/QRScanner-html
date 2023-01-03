@@ -1,0 +1,47 @@
+.notification .note-body {
+  min-width: 18.5rem;
+  max-width: 27rem;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #d0dbe9;
+}
+
+.notification .head {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  border-bottom: 2px solid #d0dbe9;
+}
+
+.notification .head-text {
+  font-weight: 400;
+  font-size: 1.1rem;
+
+  color: #454545;
+}
+.notification .head-no {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.notification .main-cont {
+  padding: 1.5rem 2rem;
+}
+.notification .noti-row {
+  display: flex;
+  gap: 0.7rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.notification .noti-row-head {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #292929;
+  margin-bottom: 2px;
+}
+.notification .noti-row-m-text {
+  font-weight: 400;
+  font-size: o.75rem;
+
+  color: #7a7a7a;
+}
