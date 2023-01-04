@@ -308,6 +308,9 @@
   .newPass .wave-box {
     margin-top: 17rem;
   }
+  .newPass .right-side {
+    min-height: 100vh;
+  }
 }
 
 @media screen and (max-width: 768px) {

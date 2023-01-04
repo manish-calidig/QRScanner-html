@@ -222,6 +222,10 @@
     gap: 34px;
     justify-content: space-around;
   }
+
+  .forgotPass-pin .right-side {
+    min-height: 100vh;
+  }
 }
 
 @media screen and (max-width: 768px) {

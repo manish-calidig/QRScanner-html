@@ -308,6 +308,9 @@
   .forgotPass-1 .wave-box {
     margin-top: 17rem;
   }
+  .forgotPass-1 .right-side {
+    min-height: 100vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
