@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="offer.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="dash" class="offers">
+      <div class="sidebar ds_none">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li>
+              <a class="menu__item active" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/home.svg" alt=""
+                  /></span>
+                  <span class="box-text">Dashboard</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/menu.svg" alt=""
+                  /></span>
+                  <span class="box-text">Menu</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img
+                      class="box-img"
+                      src="images/dish management.svg"
+                      alt=""
+                  /></span>
+                  <span class="box-text">Dishes</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/offer.svg" alt=""
+                  /></span>
+                  <span class="box-text">Offers</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/order.svg" alt=""
+                  /></span>
+                  <span class="box-text">Orders</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/banner.svg" alt=""
+                  /></span>
+                  <span class="box-text">Banners</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/staff.svg" alt=""
+                  /></span>
+                  <span class="box-text">Staff</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/report.svg" alt=""
+                  /></span>
+                  <span class="box-text">Report</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/settings.svg" alt=""
+                  /></span>
+                  <span class="box-text">settings</span>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="s-main" class="sb d_none">
+        <div id="s-main2" class="sidebar">
+          <div class="side-box" id="side-box">
+            <div class="logo-img-out">
+              <img src="./images/dp.png" class="logo-img" alt="" />
+            </div>
+            <div id="logo-text" class="logo-text clr">QR Scanner</div>
+          </div>
+          <div class="box-out">
+            <div class="box active">
+              <span><img class="box-img" src="images/home.svg" alt="" /></span>
+              <span class="box-text">Dashboard</span>
+            </div>
+            <div class="box">
+              <span><img class="box-img" src="images/menu.svg" alt="" /></span>
+              <span class="box-text">Menu</span>
+            </div>
+            <div class="box">
+              <span
+                ><img class="box-img" src="images/dish management.svg" alt=""
+              /></span>
+              <span class="box-text">Dishs</span>
+            </div>
+            <div class="box">
+              <span><img class="box-img" src="images/offer.svg" alt="" /></span>
+              <span class="box-text">Offers</span>
+            </div>
+            <div class="box">
+              <span><img class="box-img" src="images/order.svg" alt="" /></span>
+              <span class="box-text">Orders</span>
+            </div>
+            <div class="box">
+              <span
+                ><img class="box-img" src="images/banner.svg" alt=""
+              /></span>
+              <span class="box-text">Banners</span>
+            </div>
+            <div class="box">
+              <span><img class="box-img" src="images/staff.svg" alt="" /></span>
+              <span class="box-text">Staff</span>
+            </div>
+            <div class="box">
+              <span
+                ><img class="box-img" src="images/report.svg" alt=""
+              /></span>
+              <span class="box-text">Report</span>
+            </div>
+            <div class="box">
+              <span
+                ><img class="box-img" src="images/settings.svg" alt=""
+              /></span>
+              <span class="box-text">Settings</span>
+            </div>
+          </div>
+          <div id="social" class="social">
+            <div class="fb-out">
+              <img src="/images/fb2.png" alt="" class="fb-2" />
+            </div>
+            <div class="insta-out">
+              <img src="/images/insta2.png" alt="" class="fb-2" />
+            </div>
+            <div class="tweet-out">
+              <img src="/images/tweet2.png" alt="" class="fb-2" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="navbar">
+          <div>
+            <div class="exp-img-start">
+              <div id="ex-img-1" class="exp-img-outer">
+                <img
+                  src="/images//exp-s.png"
+                  id="col-img"
+                  alt=""
+                  class="coll-img"
+                  onclick="colaps()"
+                />
+              </div>
+
+              <div id="ex-img-2" class="exp-img-outer db_none">
+                <img
+                  src="/images//expand.png"
+                  id="col-img"
+                  alt=""
+                  class="coll-img"
+                  onclick="expand()"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="profile-box">
+            <span class="noti"
+              ><img src="/images/notification.png" alt=""
+            /></span>
+            <span class="prof-img"
+              ><img src="/images/profile.png" alt=""
+            /></span>
+            <span class="name-text">Jennie</span>
+          </div>
+        </div>
+
+        <div class="body">
+          <div class="btn-flx d-flex justify-content-between">
+            <div></div>
+            <div class="add-offers-btn-outer">
+              <button class="btn add-offers-btn bg">
+                <span style="padding-right: 21px"
+                  ><img src="images/addmenu.png" alt=""
+                /></span>
+                Add Offers
+              </button>
+            </div>
+          </div>
+
+          <div class="offers-box">
+            <div class="offers-box-head">
+              <div class="offers-box-head-text">Dish Item</div>
+              <div class="offers-box-head-inp-out">
+                <input type="text" name="" id="" class="offers-box-head-inp" />
+                <img src="images/search.png" alt="" />
+              </div>
+            </div>
+            <table>
+              <tbody>
+                <tr class="tr1" style="background: #f8fafd">
+                  <th>Offer Id</th>
+                  <th class="text-center">Image</th>
+                  <th class="text-center">Coupon Code</th>
+                  <th class="text-center">Coupon Type</th>
+                  <th class="text-center">Action</th>
+                </tr>
+                <tr class="tr2">
+                  <td class="td2">6676</td>
+                  <td class="td2 text-center">
+                    <img src="/images/off11.png" alt="" />
+                  </td>
+                  <td class="td2 text-center">101256</td>
+                  <td class="td2 text-center">$Percentage</td>
+
+                  <td class="td2 text-center">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">6676</td>
+                  <td class="td2 text-center">
+                    <img src="/images/off11.png" alt="" />
+                  </td>
+                  <td class="td2 text-center">101256</td>
+                  <td class="td2 text-center">Amount Off</td>
+
+                  <td class="td2 text-center">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">6676</td>
+                  <td class="td2 text-center">
+                    <img src="/images/off11.png" alt="" />
+                  </td>
+                  <td class="td2 text-center">101256</td>
+                  <td class="td2 text-center">$Percentage</td>
+
+                  <td class="td2 text-center">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">6676</td>
+                  <td class="td2 text-center">
+                    <img src="/images/off11.png" alt="" />
+                  </td>
+                  <td class="td2 text-center">101256</td>
+                  <td class="td2 text-center">Amount Off</td>
+
+                  <td class="td2 text-center">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <img src="images/del.png" class="action-img" alt="" />
+                      </div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="showing-outer">
+            <div class="showing">
+              <div class="showing-text">showing</div>
+              <div class="showing-no bg">10</div>
+              <div><img src="images/drop-vec.png" alt="" /></div>
+            </div>
+            <div class="nav-out">
+              <div class="btn back clr">
+                <div style="padding-right: 6px; font-size: 12px">&lt;</div>
+                <div style="font-size: 10px">Back</div>
+              </div>
+              <div class="btn no clr active">1</div>
+              <div class="btn no clr">2</div>
+              <div class="btn no clr">3</div>
+              <div class="btn no clr">4</div>
+              <div class="btn no clr">5</div>
+              <div class="btn back clr">
+                <div style="padding-right: 6px; font-size: 10px">Next</div>
+                <div style="font-size: 12px">&gt;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function colaps() {
+        document.getElementById("dash").classList.add("col-cont");
+        document.getElementById("social").classList.add("col-social");
+
+        document.getElementById("side-box").classList.add("col-side-box");
+        document.getElementById("logo-text").classList.add("db_none");
+        document.getElementById("ex-img-1").classList.add("db_none");
+        document.getElementById("ex-img-2").classList.remove("db_none");
+
+        let node1 = document.getElementsByClassName("box-text");
+        for (let i = 0; i < node1.length; i++) {
+          node1[i].classList.add("db_none");
+        }
+
+        let node2 = document.getElementsByClassName("box");
+        for (let i = 0; i < node1.length; i++) {
+          node2[i].classList.add("col-box");
+        }
+      }
+
+      function expand() {
+        document.getElementById("dash").classList.remove("col-cont");
+        document.getElementById("social").classList.remove("col-social");
+
+        document.getElementById("side-box").classList.remove("col-side-box");
+        document.getElementById("logo-text").classList.remove("db_none");
+        document.getElementById("ex-img-1").classList.remove("db_none");
+        document.getElementById("ex-img-2").classList.add("db_none");
+        let node1 = document.getElementsByClassName("box-text");
+        for (let i = 0; i < node1.length; i++) {
+          node1[i].classList.remove("db_none");
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -204,3 +204,10 @@
 .menu__item:hover {
   color: #333;
 }
+
+@media screen and (max-width: 295px) {
+  .menu__box {
+    left: -108%;
+    width: 280px;
+  }
+}

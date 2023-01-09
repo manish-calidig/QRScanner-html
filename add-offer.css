@@ -1,0 +1,17 @@
+body {
+  margin: 0 !important;
+}
+.add-offer {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+@media screen and (max-width: 992px) {
+  .d_none {
+    display: none;
+  }
+  .add-offer {
+    display: grid;
+    grid-template-columns: 0 100%;
+  }
+}
