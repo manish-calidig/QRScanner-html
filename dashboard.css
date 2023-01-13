@@ -15,6 +15,8 @@
   background: #e5e5e5;
 
   padding: 1.5rem 2rem 3rem 2rem;
+  max-height: 88vh;
+  overflow: scroll;
 }
 
 .feature .row {
@@ -29,6 +31,7 @@
   display: flex;
   gap: 14px;
   padding: 1.5rem 1rem;
+  align-items: center;
 }
 .box-text {
   padding-top: 0.6rem;
@@ -54,7 +57,6 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.02);
   border-radius: 16px;
   max-height: 32rem;
-  overflow: auto;
 }
 .dashboard .order-stats-head {
   display: flex;
@@ -64,7 +66,7 @@
 }
 .dashboard .order-stats-head-text {
   font-size: 22px;
-
+  font-weight: 600;
   color: #334257;
 }
 .dashboard .order-stats-head-inp-out {
@@ -86,7 +88,7 @@
 
 .dashboard table {
   width: 100%;
-  min-width: 35rem;
+  min-width: 664px;
 }
 .dashboard .order-stats th {
   font-weight: 500;
@@ -175,7 +177,16 @@
     height: 100vh;
   }
 }
+@media screen and (max-width: 1100px) {
+  .dashboard .body {
+    background: #e5e5e5;
 
+    padding: 7rem 2rem 3rem 2rem;
+
+    min-height: 100vh;
+    overflow: scroll;
+  }
+}
 @media screen and (max-width: 992px) {
   .d_none {
     display: none;
@@ -183,6 +194,27 @@
   .dashboard {
     display: grid;
     grid-template-columns: 0 100%;
+  }
+  .dashboard .body {
+    background: #e5e5e5;
+
+    padding: 10rem 2rem 3rem 2rem;
+
+    min-height: 170vh;
+    overflow: scroll;
+  }
+  .dashboard .order-stats {
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .dashboard .body {
+    background: #e5e5e5;
+
+    padding: 10rem 2rem 3rem 2rem;
+
+    min-height: 220vh;
+    overflow: scroll;
   }
 }
 @media screen and (max-width: 400px) {

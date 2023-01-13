@@ -1,3 +1,6 @@
+body {
+  background: #e5e5e5 !important;
+}
 .edit-engred {
   display: grid;
   grid-template-columns: 17% 83%;
@@ -5,7 +8,8 @@
 .edit-engred .body {
   padding: 1.5rem 2rem !important;
   background: #e5e5e5;
-  min-height: 100vh;
+  overflow-y: scroll;
+  max-height: 88vh;
 }
 
 .edit-engred .path {
@@ -114,6 +118,12 @@ input[type="checkbox"]:before {
   .edit-engred .ingred-check {
     overflow: scroll;
   }
+  .edit-engred .body {
+    padding: 7.5rem 1.5rem !important;
+    background: #e5e5e5;
+    overflow-y: scroll;
+    max-height: 88vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -121,7 +131,13 @@ input[type="checkbox"]:before {
     width: 100%;
   }
 }
-
+@media screen and (max-width: 500px) {
+  .edit-engred .body {
+    padding: 7.5rem 0.5rem !important;
+    overflow-y: scroll;
+    max-height: 95vh;
+  }
+}
 @media screen and (max-width: 350px) {
   .edit-engred .sub-btn {
     width: 100%;

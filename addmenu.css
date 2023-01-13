@@ -1,3 +1,7 @@
+body {
+  background-color: #e5e5e5 !important;
+}
+
 .add-menu {
   display: grid;
   grid-template-columns: 17% 83%;
@@ -6,7 +10,8 @@
 .add-menu .body {
   background-color: #e5e5e5;
   padding: 1.5rem 2rem 10rem 2rem;
-  min-height: 100vh;
+  min-height: 88vh;
+  overflow-y: scroll;
 }
 
 .add-menu .path {
@@ -118,11 +123,19 @@
   .add-menu .upload-data {
     width: 100%;
   }
+  .add-menu .body {
+    padding: 7.5rem 4% 10rem 4%;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .add-menu .cancel-btn,
   .add-menu .Submit-btn {
     width: 12rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .add-menu .upload-box {
+    padding: 2.5rem;
   }
 }

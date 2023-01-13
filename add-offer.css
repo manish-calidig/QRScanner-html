@@ -1,5 +1,6 @@
 body {
   margin: 0 !important;
+  background: #e5e5e5 !important;
 }
 .add-offer {
   display: grid;
@@ -9,6 +10,8 @@ body {
 .add-offer .body {
   padding: 1.5rem 2rem;
   background: #e5e5e5;
+  max-height: 88vh;
+  overflow-y: scroll;
 }
 .add-offer .path {
   color: rgba(166, 166, 166, 1);
@@ -207,6 +210,12 @@ body {
     display: grid;
     grid-template-columns: 0 100%;
   }
+
+  .add-offer .body {
+    padding: 7.5rem 2rem 1.5rem 2rem;
+    background: #e5e5e5;
+    min-height: 180vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -218,7 +227,16 @@ body {
     gap: 1rem;
   }
 }
-
+@media screen and (max-width: 500px) {
+  .add-offer .body {
+    padding: 7.5rem 0.5rem 1.5rem 0.5rem;
+    background: #e5e5e5;
+    min-height: 200vh;
+  }
+  .add-offer .date-gap {
+    gap: 5px;
+  }
+}
 @media screen and (max-width: 325px) {
   .add-offer .cancel-btn {
     width: 100%;
@@ -226,5 +244,10 @@ body {
 
   .add-offer .submit-btn {
     width: 100%;
+  }
+}
+@media screen and (max-width: 290px) {
+  .add-offer .date-inp {
+    padding: 0 16px;
   }
 }

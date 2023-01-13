@@ -1,5 +1,6 @@
 body {
   margin: 0 !important;
+  background-color: #e5e5e5 !important;
 }
 .dish-ingred {
   display: grid;
@@ -8,7 +9,8 @@ body {
 .dish-ingred .body {
   background-color: #e5e5e5;
   padding: 1.5rem 2rem 10rem 2rem;
-  min-height: 100vh;
+  overflow-y: scroll;
+  max-height: 88vh;
 }
 .dish-ingred .add-dish-ingred-btn-outer {
   text-align: right;
@@ -54,8 +56,6 @@ body {
   background: #ffffff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.02);
   border-radius: 16px;
-  overflow: auto;
-  max-height: 39.25rem;
 }
 .dish-ingred .dish-ingred-box-head {
   display: flex;
@@ -86,7 +86,7 @@ body {
 }
 
 .dish-ingred table {
-  width: 100%;
+  width: 96%;
   margin: 0 1.5rem;
   min-width: 635px;
 }
@@ -182,13 +182,13 @@ body {
   border-radius: 50%;
 }
 
-.dish-ingred .showing-outer {
+.dish-ingred .Showing-outer {
   padding-top: 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.dish-ingred .showing-text {
+.dish-ingred .Showing-text {
   font-weight: 400;
   font-size: 14px;
 
@@ -202,11 +202,11 @@ body {
   align-items: center;
 }
 
-.dish-ingred .showing {
+.dish-ingred .Showing {
   display: flex;
   gap: 10px;
 }
-.dish-ingred .showing-no {
+.dish-ingred .Showing-no {
   width: 26px;
   height: 26px;
   border-radius: 6px;
@@ -229,7 +229,14 @@ body {
   display: flex;
   align-items: center;
 }
-
+@media screen and (max-width: 1100px) {
+  .dish-ingred .body {
+    background-color: #e5e5e5;
+    padding: 7.5rem 2rem 10rem 2rem;
+    overflow-y: scroll;
+    max-height: 88vh;
+  }
+}
 @media screen and (max-width: 992px) {
   .d_none {
     display: none;
@@ -238,8 +245,17 @@ body {
     display: grid;
     grid-template-columns: 0 100%;
   }
+  .dish-ingred .body {
+    background-color: #e5e5e5;
+    padding: 7.5rem 0.5rem 10rem 0.5rem;
+    overflow-y: scroll;
+    max-height: 95vh;
+  }
+  .dish-ingred .dish-ingred-box {
+    overflow: auto;
+  }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 810px) {
   .dish-ingred .add-dish-ingred-btn-outer {
     margin-top: 1.5rem;
   }
@@ -248,6 +264,15 @@ body {
   .dish-ingred .dish-cteo,
   .dish-ingred .cat1 {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dish-ingred .body {
+    background-color: #e5e5e5;
+    padding: 7.5rem 0.5rem 10rem 0.5rem;
+    overflow-y: scroll;
+    max-height: 80vh;
   }
 }
 

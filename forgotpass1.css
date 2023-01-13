@@ -33,6 +33,7 @@
 
 .forgotPass-1 .right-side {
   padding: 0 3.4rem;
+  max-height: 100vh;
 }
 .forgotPass-1 .dp {
   text-align: center;

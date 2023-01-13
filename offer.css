@@ -1,5 +1,6 @@
 body {
   margin: 0 !important;
+  background-color: #e5e5e5 !important;
 }
 .offers {
   display: grid;
@@ -8,7 +9,8 @@ body {
 .offers .body {
   background-color: #e5e5e5;
   padding: 1.5rem 2rem 10rem 2rem;
-  min-height: 100vh;
+  max-height: 88vh;
+  overflow: scroll;
 }
 .offers .add-offers-btn-outer {
   text-align: right;
@@ -54,8 +56,6 @@ body {
   background: #ffffff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.02);
   border-radius: 16px;
-  overflow: auto;
-  max-height: 39.25rem;
 }
 .offers .offers-box-head {
   display: flex;
@@ -86,7 +86,7 @@ body {
 }
 
 .offers table {
-  width: 100%;
+  width: 96%;
   margin: 0 1.5rem;
   min-width: 635px;
 }
@@ -182,13 +182,13 @@ body {
   border-radius: 50%;
 }
 
-.offers .showing-outer {
+.offers .Showing-outer {
   padding-top: 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.offers .showing-text {
+.offers .Showing-text {
   font-weight: 400;
   font-size: 14px;
 
@@ -202,11 +202,11 @@ body {
   align-items: center;
 }
 
-.offers .showing {
+.offers .Showing {
   display: flex;
   gap: 10px;
 }
-.offers .showing-no {
+.offers .Showing-no {
   width: 26px;
   height: 26px;
   border-radius: 6px;
@@ -230,9 +230,6 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 1150px) {
-}
-
 @media screen and (max-width: 992px) {
   .d_none {
     display: none;
@@ -240,6 +237,16 @@ body {
   .offers {
     display: grid;
     grid-template-columns: 0 100%;
+  }
+  .offers .body {
+    background-color: #e5e5e5;
+    padding: 7.5rem 2rem 10rem 2rem;
+    min-height: 120vh;
+    overflow: scroll;
+  }
+  .offers .offers-box {
+    overflow: auto;
+    max-height: 39.25rem;
   }
 }
 @media screen and (max-width: 840px) {
@@ -268,6 +275,15 @@ body {
     flex-direction: column;
     gap: 1rem;
     background: none;
+  }
+  .offers .body {
+    background-color: #e5e5e5;
+    padding: 0rem 2rem 10rem 2rem;
+    min-height: 140vh;
+    overflow: scroll;
+  }
+  .offers .add-offers-btn-outer {
+    text-align: center;
   }
 }
 
