@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="add-staff-type.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="dash" class="add-staff-type">
+      <div class="sidebar ds_none">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li>
+              <a class="menu__item active" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/home.svg" alt=""
+                  /></span>
+                  <span class="box-text">Dashboard</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/menu.svg" alt=""
+                  /></span>
+                  <span class="box-text">Menu</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img
+                      class="box-img"
+                      src="images/dish management.svg"
+                      alt=""
+                  /></span>
+                  <span class="box-text">Dish Management</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/offer.svg" alt=""
+                  /></span>
+                  <span class="box-text">Offers & Discount</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/order.svg" alt=""
+                  /></span>
+                  <span class="box-text">Order Management</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/banner.svg" alt=""
+                  /></span>
+                  <span class="box-text">Banner Management</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/staff.svg" alt=""
+                  /></span>
+                  <span class="box-text">Staff Management</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/report.svg" alt=""
+                  /></span>
+                  <span class="box-text">Report</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="menu__item" href="#">
+                <div class="box">
+                  <span
+                    ><img class="box-img" src="images/settings.svg" alt=""
+                  /></span>
+                  <span class="box-text">settings</span>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="s-main" class="sb d_none">
+        <div id="s-main2" class="sidebar">
+          <div class="side-box" id="side-box">
+            <div class="logo-img-out">
+              <img src="./images/dp.png" class="logo-img" alt="" />
+            </div>
+            <div id="logo-text" class="logo-text clr">QR Scanner</div>
+          </div>
+          <div class="box-out">
+            <div class="box active">
+              <span><img class="box-img" src="images/home.svg" alt="" /></span>
+              <span class="box-text">Dashboard</span>
+            </div>
+            <div class="box">
+              <span><img class="box-img" src="images/menu.svg" alt="" /></span>
+              <span class="box-text">Menu</span>
+            </div>
+            <div class="box">
+              <span
+                ><img class="box-img" src="images/dish management.svg" alt=""
+              /></span>
+              <span class="box-text">Dishs</span>
+            </div>
+            <div class="box">
+              <span><img class="box-img" src="images/offer.svg" alt="" /></span>
+              <span class="box-text">Offers</span>
+            </div>
+            <div class="box">
+              <span><img class="box-img" src="images/order.svg" alt="" /></span>
+              <span class="box-text">Orders</span>
+            </div>
+            <div class="box">
+              <span
+                ><img class="box-img" src="images/banner.svg" alt=""
+              /></span>
+              <span class="box-text">Banners</span>
+            </div>
+            <div class="box">
+              <span><img class="box-img" src="images/staff.svg" alt="" /></span>
+              <span class="box-text">Staff</span>
+            </div>
+            <div class="box">
+              <span
+                ><img class="box-img" src="images/report.svg" alt=""
+              /></span>
+              <span class="box-text">Report</span>
+            </div>
+            <div class="box">
+              <span
+                ><img class="box-img" src="images/settings.svg" alt=""
+              /></span>
+              <span class="box-text">Settings</span>
+            </div>
+          </div>
+          <div id="social" class="social">
+            <div class="fb-out">
+              <img src="/images/fb2.png" alt="" class="fb-2" />
+            </div>
+            <div class="insta-out">
+              <img src="/images/insta2.png" alt="" class="fb-2" />
+            </div>
+            <div class="tweet-out">
+              <img src="/images/tweet2.png" alt="" class="fb-2" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="navbar">
+          <div>
+            <div class="exp-img-start">
+              <div id="ex-img-1" class="exp-img-outer">
+                <img
+                  src="/images//exp-s.png"
+                  id="col-img"
+                  alt=""
+                  class="coll-img"
+                  onclick="colaps()"
+                />
+              </div>
+
+              <div id="ex-img-2" class="exp-img-outer db_none">
+                <img
+                  src="/images//expand.png"
+                  id="col-img"
+                  alt=""
+                  class="coll-img"
+                  onclick="expand()"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="profile-box">
+            <span class="noti"
+              ><img src="/images/notification.png" alt=""
+            /></span>
+            <span class="prof-img"
+              ><img src="/images/profile.png" alt=""
+            /></span>
+            <span class="name-text">Jennie</span>
+          </div>
+        </div>
+        <div class="body">
+          <div class="path">
+            <span class="clr"> Home</span> / Staff / Add Staff Type
+          </div>
+          <div class="add-staff-type-box">
+            <div class="staff-type-head">Staff Type</div>
+            <div>
+              <input
+                type="text"
+                name=""
+                class="form-control combo-name-inp"
+                placeholder="Staff Type"
+                id=""
+              />
+            </div>
+
+            <div class="btn-outer">
+              <div><button class="btn submit-btn active">Submit</button></div>
+              <div><button class="btn cancel-btn">Cancel</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
