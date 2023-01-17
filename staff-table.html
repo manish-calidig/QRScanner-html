@@ -8,7 +8,7 @@
 
     <!-- css -->
     <link rel="stylesheet" href="common.css" />
-    <link rel="stylesheet" href="staff.css" />
+    <link rel="stylesheet" href="staff-table.css" />
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="sidebar.css" />
 
@@ -36,7 +36,7 @@
     ></script>
   </head>
   <body>
-    <div id="dash" class="staff">
+    <div id="dash" class="staff-table">
       <div class="sidebar ds_none">
         <div class="hamburger-menu">
           <input id="menu__toggle" type="checkbox" />
@@ -74,7 +74,7 @@
                       src="images/dish management.svg"
                       alt=""
                   /></span>
-                  <span class="box-text">Dish Management</span>
+                  <span class="box-text">Dish</span>
                 </div></a
               >
             </li>
@@ -84,7 +84,7 @@
                   <span
                     ><img class="box-img" src="images/offer.svg" alt=""
                   /></span>
-                  <span class="box-text">Offers & Discount</span>
+                  <span class="box-text">Offers</span>
                 </div></a
               >
             </li>
@@ -94,7 +94,7 @@
                   <span
                     ><img class="box-img" src="images/order.svg" alt=""
                   /></span>
-                  <span class="box-text">Order Management</span>
+                  <span class="box-text">Order</span>
                 </div></a
               >
             </li>
@@ -104,7 +104,7 @@
                   <span
                     ><img class="box-img" src="images/banner.svg" alt=""
                   /></span>
-                  <span class="box-text">Banner Management</span>
+                  <span class="box-text">Banner</span>
                 </div></a
               >
             </li>
@@ -114,7 +114,7 @@
                   <span
                     ><img class="box-img" src="images/staff.svg" alt=""
                   /></span>
-                  <span class="box-text">Staff Management</span>
+                  <span class="box-text">staff </span>
                 </div></a
               >
             </li>
@@ -181,7 +181,7 @@
             </div>
             <div class="box">
               <span><img class="box-img" src="images/staff.svg" alt="" /></span>
-              <span class="box-text">Staff</span>
+              <span class="box-text">staff</span>
             </div>
             <div class="box">
               <span
@@ -247,38 +247,46 @@
         <div class="body">
           <div class="btn-flx d-flex justify-content-between">
             <div class="dish-cteo d-flex">
-              <button class="btn cat1 active act-2">Staff Type</button>
-              <button class="btn cat1">Staff</button>
+              <button class="btn cat1 active act-2">staff Type</button>
+              <button class="btn cat1">staff</button>
             </div>
-            <div class="add-staff-btn-outer">
-              <button class="btn add-staff-btn bg">
+            <div class="add-staff-table-btn-outer">
+              <button class="btn add-staff-table-btn bg">
                 <span style="padding-right: 21px"
                   ><img src="images/addmenu.png" alt=""
                 /></span>
-                Add Staff Type
+                Add staff
               </button>
             </div>
           </div>
 
-          <div class="staff-box">
-            <div class="staff-box-head">
-              <div class="staff-box-head-text">Staff Details</div>
-              <div class="staff-box-head-inp-out">
-                <input type="text" name="" id="" class="staff-box-head-inp" />
+          <div class="staff-table-box">
+            <div class="staff-table-box-head">
+              <div class="staff-table-box-head-text">staff Details</div>
+              <div class="staff-table-box-head-inp-out">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="staff-table-box-head-inp"
+                />
                 <img src="images/search.png" alt="" />
               </div>
             </div>
             <table>
               <tbody>
                 <tr class="tr1" style="background: #f8fafd">
-                  <th style="width: 91%">Staff Type</th>
+                  <th style="width: 31.5%">Name</th>
+                  <th style="width: 26.5%">staff Type</th>
+                  <th style="width: 26.5%">Mobile Number</th>
 
                   <th class="text-center">Action</th>
                 </tr>
                 <tr class="tr2">
+                  <td class="td2">Maaran Prajapati</td>
                   <td class="td2">Waiter</td>
-
-                  <td class="td2 text-center">
+                  <td class="td2">8899889988</td>
+                  <td class="td2">
                     <div class="action">
                       <div>
                         <img src="images/edit.png" class="action-img" alt="" />
@@ -295,9 +303,90 @@
                 </tr>
 
                 <tr class="tr2">
+                  <td class="td2">Maaran Prajapati</td>
                   <td class="td2">Waiter</td>
+                  <td class="td2">8899889988</td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
 
-                  <td class="td2 text-center">
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">Maaran Prajapati</td>
+                  <td class="td2">Waiter</td>
+                  <td class="td2">8899889988</td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">Maaran Prajapati</td>
+                  <td class="td2">Waiter</td>
+                  <td class="td2">8899889988</td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">Maaran Prajapati</td>
+                  <td class="td2">Waiter</td>
+                  <td class="td2">8899889988</td>
+                  <td class="td2">
+                    <div class="action">
+                      <div>
+                        <img src="images/edit.png" class="action-img" alt="" />
+                      </div>
+
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="tr2">
+                  <td class="td2">Maaran Prajapati</td>
+                  <td class="td2">Waiter</td>
+                  <td class="td2">8899889988</td>
+                  <td class="td2">
                     <div class="action">
                       <div>
                         <img src="images/edit.png" class="action-img" alt="" />
