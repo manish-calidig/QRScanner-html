@@ -36,6 +36,13 @@
   box-shadow: rgb(0, 0, 0, 0.14);
 }
 
+.sett-act {
+  color: #ff8a00 !important;
+  border-bottom: solid 2px #ff8a00 !important;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
 .btn:focus {
   box-shadow: none !important;
 }
