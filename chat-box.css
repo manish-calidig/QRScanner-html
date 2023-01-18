@@ -1,0 +1,144 @@
+.chat-box {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+.chat-box .body {
+  background: #e5e5e5;
+  padding: 1.5rem 2rem;
+  min-height: 88vh;
+  max-height: 90vh;
+  overflow: scroll;
+}
+
+.chat-box .chat-query-box {
+  background: #ffffff;
+  border: 1px solid #e8f0fe;
+  border-radius: 16px;
+  padding: 0 2rem 19px 2rem;
+  min-width: 600px;
+}
+
+.chat-box .chat-nav {
+  background: #ffffff;
+  border-radius: 16px 16px 0px 0px;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-box .chat-nav-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.chat-box .chat-dp-txt {
+  font-weight: 500;
+  color: #454545;
+}
+
+.chat-box .chat-nav-right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.chat-box .chat-main-box {
+  padding-top: 2rem;
+  display: flex;
+  gap: 10px;
+  color: #454545;
+}
+
+.chat-box .chat-main-left {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.chat-box .chat-main-right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-end;
+}
+.chat-box .chat-mssg-left {
+  padding: 18px;
+  background: #edf4ff;
+  border-radius: 0px 14px 14px 14px;
+  width: fit-content;
+}
+.chat-box .chat-mssg-right {
+  padding: 18px;
+  background: #f8f8f9;
+  border-radius: 14px 0px 14px 14px;
+  width: fit-content;
+}
+
+.chat-box .chat-inp-box-out {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.chat-box .inp {
+  width: 100%;
+  position: relative;
+}
+
+.chat-box .sticker {
+  position: absolute;
+  top: 16px;
+  left: 22px;
+}
+
+.chat-box .attach {
+  position: absolute;
+  top: 16px;
+  right: 26px;
+}
+.chat-box .chat-inp {
+  border: 1px solid rgba(122, 122, 122, 0.4);
+  border-radius: 50px;
+  height: 58px;
+  width: 100%;
+}
+.chat-box .chat-inp::placeholder {
+  padding-left: 4.4rem;
+  color: #868686;
+  font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+  .d_none {
+    display: none;
+  }
+  .chat-box {
+    display: grid;
+    grid-template-columns: 0 100%;
+  }
+
+  .chat-box .body {
+    background: #e5e5e5;
+    padding: 7.5rem 2rem 10rem 2rem;
+    min-height: 150vh;
+
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .chat-box .body {
+    background: #e5e5e5;
+    padding: 7.5rem 1rem 10rem 1rem;
+    min-height: 150vh;
+
+    overflow: scroll;
+  }
+
+  .chat-box .chat-query-box {
+    padding: 0 1rem 19px 1rem;
+  }
+}
